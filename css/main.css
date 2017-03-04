@@ -61,10 +61,11 @@ body {
   position: absolute;
   left: -250px;
   animation: pour 10s infinite;
-  bottom: -40px;
-  border-top: 40px solid white;
+  animation-delay: 0.2s;
+  bottom: -300px;
+  border-top: 1px solid white;
 }
-/* line 64, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 #wrapper #beer-glass #glass #drink .bubble {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -81,7 +82,7 @@ body {
     transform: rotate(0deg);
   }
   25% {
-    transform: rotate(-30deg);
+    transform: rotate(-35deg);
   }
   50% {
     transform: rotate(0deg);
@@ -110,21 +111,21 @@ body {
     bottom: -300px;
     border-top: 1px solid white;
   }
-  30% {
+  25% {
     transform: rotate(30deg);
+  }
+  43% {
+    transform: rotate(0deg);
   }
   45% {
     bottom: -40px;
     border-top: 40px solid white;
   }
-  50% {
-    transform: rotate(0deg);
-  }
   85% {
     bottom: -40px;
     border-top: 40px solid white;
   }
-  100% {
+  90% {
     bottom: -300px;
     border-top: 1px solid white;
   }
